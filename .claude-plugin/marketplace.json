@@ -1,0 +1,12 @@
+{
+  "name": "veluralabs-social",
+  "description": "Social media plugin from Velura Labs",
+  "owner": { "name": "Velura Labs", "email": "admin@veluralabs.com" },
+  "plugins": [
+    {
+      "name": "velura-social",
+      "source": "./",
+      "description": "Post to and manage LinkedIn, Facebook and Instagram from Claude through a local MCP server."
+    }
+  ]
+}

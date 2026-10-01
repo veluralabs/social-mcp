@@ -1,0 +1,35 @@
+{
+  "name": "velura-social",
+  "displayName": "Velura Social",
+  "version": "1.0.0",
+  "description": "Post to and manage LinkedIn, Facebook and Instagram from Claude through a local MCP server: publishing, comments, stats, cross-posting and scheduling.",
+  "author": { "name": "Dr Ishit Karoli", "email": "admin@veluralabs.com", "url": "https://veluralabs.com" },
+  "homepage": "https://github.com/veluralabs/social-mcp#readme",
+  "repository": "https://github.com/veluralabs/social-mcp",
+  "license": "MIT",
+  "keywords": ["social-media", "linkedin", "instagram", "facebook", "mcp"],
+  "userConfig": {
+    "linkedin_access_token": {
+      "type": "string",
+      "title": "LinkedIn access token",
+      "description": "Leave empty to skip LinkedIn. Scopes: openid profile w_member_social, plus the organization scopes for a company page",
+      "sensitive": true
+    },
+    "linkedin_organization_id": {
+      "type": "string",
+      "title": "LinkedIn company page ID (optional)",
+      "description": "The number in linkedin.com/company/<id>/admin. Leave empty to post as your personal profile"
+    },
+    "meta_access_token": {
+      "type": "string",
+      "title": "Meta access token",
+      "description": "Leave empty to skip Facebook and Instagram. A long-lived user token or Page token from your Meta app",
+      "sensitive": true
+    },
+    "facebook_page_id": {
+      "type": "string",
+      "title": "Facebook Page ID",
+      "description": "The Page to manage. Its linked Instagram professional account is found automatically"
+    }
+  }
+}

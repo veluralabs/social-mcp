@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "velura-social": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/src/index.js"],
+      "env": {
+        "LINKEDIN_ACCESS_TOKEN": "${user_config.linkedin_access_token}",
+        "LINKEDIN_ORGANIZATION_ID": "${user_config.linkedin_organization_id}",
+        "META_ACCESS_TOKEN": "${user_config.meta_access_token}",
+        "FACEBOOK_PAGE_ID": "${user_config.facebook_page_id}"
+      }
+    }
+  }
+}

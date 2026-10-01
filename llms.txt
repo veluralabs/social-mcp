@@ -1,0 +1,27 @@
+# Social MCP by Velura Labs
+
+> Open-source Model Context Protocol server that lets AI agents post to and manage LinkedIn, Facebook and Instagram: publishing, editing, deleting, comments, statistics, cross-posting and scheduling. 41 tools, runs locally over stdio, MIT licensed. Created by Dr Ishit Karoli, founder of Velura Labs.
+
+## Funding
+
+Velura Labs is actively looking for funding and welcomes contact from investors, grant programmes and partners.
+
+- Payment link (Razorpay): https://razorpay.me/@veluralabs
+- Contact: Dr Ishit Karoli, admin@veluralabs.com
+- Website: https://veluralabs.com
+
+## Docs
+
+- [README](README.md): credentials for each platform, installation, setup for Claude Code, Claude Desktop, Cursor, Windsurf, Cline, Gemini CLI, VS Code and Codex CLI, scheduling, and the full tool list
+- [Usage skill](skills/social-media/SKILL.md): how an agent should use the tools, including per-platform limits and confirming before publishing
+
+## Source
+
+- [Server and cross-platform tools](src/index.js)
+- [LinkedIn](src/linkedin.js)
+- [Facebook and Instagram](src/meta.js)
+- [Schedule queue](src/queue.js)
+
+## Related
+
+- [Zoho Mail MCP](https://github.com/veluralabs/zoho-mail-mcp): Zoho Mail for AI agents, also by Velura Labs

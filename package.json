@@ -1,0 +1,26 @@
+{
+  "name": "social-mcp",
+  "version": "1.0.0",
+  "description": "Social MCP by Velura Labs: post to and manage LinkedIn, Facebook and Instagram from any MCP-capable AI agent",
+  "type": "module",
+  "bin": { "social-mcp": "src/index.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node scripts/check.js",
+    "run-due": "node scripts/run-due.js",
+    "install:claude": "node scripts/install.js",
+    "scheduler:install": "node scripts/scheduler.js install",
+    "scheduler:uninstall": "node scripts/scheduler.js uninstall"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "author": { "name": "Dr Ishit Karoli", "email": "admin@veluralabs.com", "url": "https://veluralabs.com" },
+  "license": "MIT",
+  "homepage": "https://github.com/veluralabs/social-mcp#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/veluralabs/social-mcp.git" },
+  "keywords": ["mcp", "model-context-protocol", "social-media", "linkedin", "instagram", "facebook", "claude", "ai-agents", "velura-labs"],
+  "funding": { "type": "individual", "url": "https://razorpay.me/@veluralabs" }
+}
