@@ -1,7 +1,7 @@
 {
   "name": "velura-social",
   "displayName": "Velura Social",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Post to and manage LinkedIn, Facebook and Instagram from Claude through a local MCP server: publishing, comments, stats, cross-posting and scheduling.",
   "author": { "name": "Dr Ishit Karoli", "email": "admin@veluralabs.com", "url": "https://veluralabs.com" },
   "homepage": "https://github.com/veluralabs/social-mcp#readme",

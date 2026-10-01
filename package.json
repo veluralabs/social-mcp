@@ -1,6 +1,6 @@
 {
   "name": "social-mcp",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Social MCP by Velura Labs: post to and manage LinkedIn, Facebook and Instagram from any MCP-capable AI agent",
   "type": "module",
   "bin": { "social-mcp": "src/index.js" },
